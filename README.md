@@ -17,7 +17,10 @@ Maven
 An SMTP-compatible Mail.ru account with an application-specific password enabled.
 Configuration
 Update the following fields in EmailSender.java with your own Mail.ru SMTP credentials:
+
+
 private static final String USERNAME = "your-email@mail.ru";
+
 private static final String PASSWORD = "your-application-password";
 
 File Paths
@@ -38,8 +41,11 @@ CSV File Format
 The CSV file should contain one email address per line in the first column, without a header row.
 
 Example:
+
 recipient1@example.com
+
 recipient2@example.com
+
 recipient3@example.com
 
 Project Structure
